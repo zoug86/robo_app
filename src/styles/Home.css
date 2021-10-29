@@ -3,8 +3,30 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    background: rgb(80,225,236);
+    background: linear-gradient(90deg, rgba(80,225,236,1) 0%, rgba(0,49,61,1) 100%, rgba(2,0,36,1) 100%);
+    overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans:wght@500&family=Press+Start+2P&display=swap');
+
+.robo-friends{
+    font-family: 'Monoton', cursive;
+    font-size: 5rem;
+    color: #279ba3;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 100px #fff, 0 0 150px #fff, 0 0 1000px #fff;
+}
+
+.input-search{
+    width: 20%;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background: #b5dcdf;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
 }
 
 .robot-container{
@@ -12,12 +34,11 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 100vh;
+    height: auto;
     width: 100vw;
-    border: 1px solid black;
+    border-top: 5px solid black;
     overflow-y: scroll;
-    overflow-x: hidden;
-    background: rgb(0,212,255);
-background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(2,0,36,1) 69%, rgba(9,9,121,1) 100%);
-
+    background: rgb(80,225,236);
+    background: linear-gradient(90deg, rgba(80,225,236,1) 0%, rgba(0,49,61,1) 100%, rgba(2,0,36,1) 100%);
+    margin-top: 10px;
 }
