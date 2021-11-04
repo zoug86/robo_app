@@ -25,7 +25,7 @@ const Home = () => {
         const filteredRobots = robots.filter(robot => robot.name.toLowerCase().includes(event.target.value.toLowerCase()));
         setFilteredRobots(filteredRobots);
     }
-    console.log(loading)
+
     return (loading ? <h1>Loading...</h1> :
         <div className="home">
             <h1 className="robo-friends">ROBOFRIENDS</h1>

@@ -19,7 +19,7 @@
 
 .input-search{
     width: 20%;
-    height: 70px;
+    height: 10%;
     border-radius: 10px;
     border: none;
     background: #b5dcdf;
@@ -27,6 +27,15 @@
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     outline: none;
+}
+
+@media screen and (max-width: 1300px){
+    .robo-friends{   
+        font-size: 4rem;
+    }
+    .input-search{
+        height: 30%;
+    }
 }
 
 .robot-container{
